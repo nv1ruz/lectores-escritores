@@ -1,0 +1,148 @@
+
+.page-header{
+  padding: 10px;
+  background-color: #36393f;
+}
+.page-header__title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.page-header__myUser{
+  color: #fff;
+  font-size: 16px;
+}
+.btn-login{
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.page-body-turns{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.turn-bloque{
+  padding: 10px;
+  width: 100%;
+  /* border: 1px solid #2f3136; */
+  /* border-radius: 4px; */
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.05);
+}
+.--turn-current{
+  color: #fff;
+  background-color: #55c06c;
+}
+.--turn-next{
+  color: #fff;
+  background-color: #abc3f5;
+}
+.turn-bloque__title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.turn-bloque__user{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-waiting__title{
+  padding: 10px;
+  background-color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+}
+.user-waiting-row{
+  padding: 10px;
+  border-bottom: 1px solid #f2f3f5;
+}
+.user-waiting-row:hover{
+  background-color: #f8f8fa;
+}
+.user-waiting__pos{
+  display: inline-block;
+  margin-right: 5px;
+  width: 90px;
+  font-size: 14px;
+}
+.user-waiting__user{
+  font-weight: 500;
+}
+
+.resource{
+  margin-top: 10px;
+}
+.resource__title{
+  padding: 10px;
+  background-color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+}
+.resource__status{
+  padding: 5px;
+  background-color: red;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.--available{
+  color: #145a23;
+  background-color: #acdfb7;
+}
+.--not-available{
+  color: #6b1212;
+  background-color: #f8a0a0;
+}
+.resource-actions{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20px;
+}
+.action-box{
+  margin: 0 5px;
+  padding: 20px;
+  width: 100%;
+  /* border: 1px solid #2f3136; */
+  border-radius: 4px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.10);
+}
+.--action-active{
+  color: #fff;
+  background-color: #4173dd;
+}
+.action-box__title{
+  font-size: 18px;
+  font-weight: 700;
+}
+.action-box__btn{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.resource{
+  margin-top: 25px;
+}
+.resource-log__title{
+  padding: 10px;
+  background-color: #f2f3f5;
+  font-size: 18px;
+  font-weight: 500;
+}
+.resource-log-row{
+  padding: 10px;
+  border-bottom: 1px solid #f2f3f5;
+}
+.resource-log-row:hover{
+  background-color: #f8f8fa;
+}
+.resource-log__pos{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.resource-log__user{
+  font-weight: 500;
+}
